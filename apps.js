@@ -12,7 +12,12 @@ var app = new Vue({
   // }
 
   // <!-- ========= Radio Button ========== -->
+  // data:{
+  //   checklist:[]
+  // }
+
+  // <!-- ========= Checkbox ========== -->
   data:{
-    choose:''
+    checklist:[]
   }
 })

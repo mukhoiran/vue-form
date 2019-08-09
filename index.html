@@ -18,13 +18,29 @@
       <p style="white-space: pre-line;">{{message}}</p> -->
 
       <!-- =========== Radio button =========== -->
-      <h3>Your choice</h3>
+      <!-- <h3>Your choice</h3>
       <input type="radio" id="s2" v-model="choose" value="S2">S2
       <br>
       <input type="radio" id="married" v-model="choose" value="Married">Married
       <br>
       <h3>You have choosed : </h3>
-      <p>{{choose}}</p>
+      <p>{{choose}}</p> -->
+
+      <!-- =========== Checkbox =========== -->
+      <h3>Choose hobbies</h3>
+      <input type="checkbox" v-model="checklist" value="Football">
+      <label for="checkbox">Football</label><br>
+      <input type="checkbox" v-model="checklist" value="Badminton">
+      <label for="checkbox">Badminton</label><br>
+      <input type="checkbox" v-model="checklist" value="Basketball">
+      <label for="checkbox">Basketball</label><br>
+      <h3>Hobbies choosed :</h3>
+      <!-- <p>{{checklist}}</p> -->
+      <ul>
+        <li v-for="c in checklist">{{c}}</li>
+      </ul>
+
+      
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="apps.js"></script>
