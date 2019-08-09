@@ -27,18 +27,30 @@
       <p>{{choose}}</p> -->
 
       <!-- =========== Checkbox =========== -->
-      <h3>Choose hobbies</h3>
+      <!-- <h3>Choose hobbies</h3>
       <input type="checkbox" v-model="checklist" value="Football">
       <label for="checkbox">Football</label><br>
       <input type="checkbox" v-model="checklist" value="Badminton">
       <label for="checkbox">Badminton</label><br>
       <input type="checkbox" v-model="checklist" value="Basketball">
       <label for="checkbox">Basketball</label><br>
-      <h3>Hobbies choosed :</h3>
+      <h3>Hobbies choosed :</h3> -->
       <!-- <p>{{checklist}}</p> -->
-      <ul>
+      <!-- <ul>
         <li v-for="c in checklist">{{c}}</li>
-      </ul>
+      </ul> -->
+
+      <!-- =========== Dropdown =========== -->
+      <h3>Choose City</h3>
+      <select v-model="choose">
+        <option disabled value="">Choose your city</option>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+        <option>Pekalongan</option>
+        <option>Yogyakarta</option>
+      </select>
+      <h3>Your city :</h3>
+      <p>{{choose}}</p>
 
       
     </div>

@@ -17,7 +17,13 @@ var app = new Vue({
   // }
 
   // <!-- ========= Checkbox ========== -->
+  // data:{
+  //   checklist:[]
+  // }
+
+  // <!-- ========= Dropdown ========== -->
   data:{
-    checklist:[]
+    choose:''
   }
+
 })
