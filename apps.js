@@ -7,7 +7,12 @@ var app = new Vue({
   // }
 
   // <!-- ========= End Textbox ========== -->
+  // data:{
+  //   message: '',
+  // }
+
+  // <!-- ========= Radio Button ========== -->
   data:{
-    message: '',
+    choose:''
   }
 })

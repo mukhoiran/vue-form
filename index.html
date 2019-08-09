@@ -13,11 +13,18 @@
       <p>{{message}}</p> -->
 
       <!-- =========== Multiline/textarea =========== -->
-      <textarea v-model="message" placeholder="type message here"></textarea>
+      <!-- <textarea v-model="message" placeholder="type message here"></textarea>
       <p>Your message is :</p>
-      <p style="white-space: pre-line;">{{message}}</p>
+      <p style="white-space: pre-line;">{{message}}</p> -->
 
-      
+      <!-- =========== Radio button =========== -->
+      <h3>Your choice</h3>
+      <input type="radio" id="s2" v-model="choose" value="S2">S2
+      <br>
+      <input type="radio" id="married" v-model="choose" value="Married">Married
+      <br>
+      <h3>You have choosed : </h3>
+      <p>{{choose}}</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="apps.js"></script>
